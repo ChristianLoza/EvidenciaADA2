@@ -3,6 +3,7 @@
 
 #include "Tabla.h"
 #include "Movimiento.h"
+#include <vector>
 using namespace std;
 
 enum{
@@ -21,7 +22,8 @@ public:
 	Juego(void);
 	~Juego(void);
 	void loadGame();
-	void Tablero(Tabla &tabla, int size);
-	void showTabla(Tabla &tabla);
+	void Tablero(Tabla &,int);
+	void showTabla(Tabla &);
+	int AlgoNegaScout(Tabla &,int,int,int,int,int);
 };
 

@@ -40,3 +40,8 @@ void Juego::showTabla(Tabla &tabla){
 		cout<<"\n";
 	}
 }
+int Juego::AlgoNegaScout(Tabla &tabla,int lado,int profActual,int profMax,int aX,int bX){
+	vector<Movimiento> movimientos;
+	movimientos MejorMov = {-1,-1};
+	return 0;
+}

@@ -3,11 +3,13 @@
 
 #include "stdafx.h"
 #include "Juego.h"
-
+#include <iostream>
+using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	Juego juego;
+	Juego j;
+	system("pause");
 	return 0;
 }
 

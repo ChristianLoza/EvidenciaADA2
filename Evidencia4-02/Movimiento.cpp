@@ -4,6 +4,8 @@
 
 Movimiento::Movimiento(void)
 {
+	fila =0;
+	columna = 0;
 }
 
 

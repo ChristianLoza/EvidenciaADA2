@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\tresenraya">
+      <UniqueIdentifier>{3e9958f1-ef54-4f7e-bb43-87b733504074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tresenraya">
+      <UniqueIdentifier>{fee76be7-796c-4c9e-a5c1-7128cf1a3043}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -24,30 +30,30 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Tabla.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Juego.h">
+      <Filter>Header Files\tresenraya</Filter>
     </ClInclude>
     <ClInclude Include="Movimiento.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\tresenraya</Filter>
     </ClInclude>
-    <ClInclude Include="Juego.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Tabla.h">
+      <Filter>Header Files\tresenraya</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Evidencia4-02.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Movimiento.cpp">
+      <Filter>Source Files\tresenraya</Filter>
     </ClCompile>
     <ClCompile Include="Tabla.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Movimiento.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\tresenraya</Filter>
     </ClCompile>
     <ClCompile Include="Juego.cpp">
+      <Filter>Source Files\tresenraya</Filter>
+    </ClCompile>
+    <ClCompile Include="Evidencia4-02.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

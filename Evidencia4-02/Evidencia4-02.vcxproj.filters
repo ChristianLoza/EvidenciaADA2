@@ -19,6 +19,9 @@
     <Filter Include="Source Files\tresenraya">
       <UniqueIdentifier>{fee76be7-796c-4c9e-a5c1-7128cf1a3043}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\convexHull">
+      <UniqueIdentifier>{f7bc4119-b265-4f8f-929a-7ff5401ed1d6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -39,6 +42,9 @@
     <ClInclude Include="Tabla.h">
       <Filter>Header Files\tresenraya</Filter>
     </ClInclude>
+    <ClInclude Include="punto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -54,6 +60,9 @@
       <Filter>Source Files\tresenraya</Filter>
     </ClCompile>
     <ClCompile Include="Evidencia4-02.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="punto.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

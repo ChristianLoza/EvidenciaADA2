@@ -1,10 +1,9 @@
 ========================================================================
     CONSOLE APPLICATION : Evidencia4-02 Project Overview
 ========================================================================
-
 Aplicaciones Simples:
-- Tres en raya
-- Obtención del cerco convexo (Convex Hull) -> 
+- Tres en raya -> 100% 
+- Obtención del cerco convexo (Convex Hull) -> 2%
 
 /////////////////////////////////////////////////////////////////////////////
 

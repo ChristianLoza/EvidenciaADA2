@@ -83,7 +83,7 @@ int Juego::aNegaScout(Tabla &tabla,int lado,int profActual,int profMax,int aX,in
         }
     }
 
-    for(int i=0;i<Movimientos.size();i++){
+    for(unsigned int i=0;i<Movimientos.size();i++){
     	tabla.tabla[Movimientos[i].fila][Movimientos[i].columna]=lado;
         punts=-aNegaScout(tabla,lado^1,profActual-1,profMax,-n,-aX);
         if(punts>bPunts){

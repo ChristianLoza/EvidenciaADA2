@@ -43,7 +43,7 @@
       <Filter>Header Files\tresenraya</Filter>
     </ClInclude>
     <ClInclude Include="punto.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\convexHull</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
